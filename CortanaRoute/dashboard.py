@@ -6,7 +6,7 @@ def load_csv(file):
     return pd.read_csv(file)
 
 # Streamlit app
-st.title("Opps Finder")
+st.title("CortanaRoute")
 st.sidebar.title("Your copilot for sales")
 # Drag and Drop for CSV file
 uploaded_file = st.file_uploader("Upload your CSV file", type="csv")
